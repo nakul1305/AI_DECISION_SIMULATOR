@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Decision Simulator</title>
+    <link rel="stylesheet" href="ai.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Decision Simulator</h1>
+
+    <div class="form">
+        <input type="number" id="income" placeholder="Enter Income">
+
+        <select id="risk">
+            <option value="low">Low Risk</option>
+            <option value="medium">Medium Risk</option>
+            <option value="high">High Risk</option>
+        </select>
+
+        <input type="number" id="time" placeholder="Time (years)">
+
+        <button onclick="simulate()">Simulate</button>
+    </div>
+
+    <div id="result"></div>
+</div>
+
+<script src="ai.js"></script>
+</body>
+</html>
