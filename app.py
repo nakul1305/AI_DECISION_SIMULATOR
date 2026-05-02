@@ -60,7 +60,7 @@ def save_simulation(params, result, engine_used, latency_ms: int = 0):
 # ── Smart engine auto-router ──────────────────────────────────────────────────
 
 def select_engine(requested: str | None) -> str:
-    """
+    """ƒ
     If the user explicitly picked an engine, honour it.
     Otherwise pick the best available engine automatically:
       1. Anthropic (highest quality, needs API key)
@@ -81,7 +81,7 @@ def select_engine(requested: str | None) -> str:
 
 @app.route("/")
 def index():
-    return render_template("ai-decision-simulator.html")
+    return render_template("index.html")
 
 
 @app.route("/api/simulate", methods=["POST"])
@@ -312,4 +312,4 @@ with app.app_context():
     init_schema(get_connection(app.config["DATABASE"]))
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=6000)
+    app.run(debug=True, host="0.0.0.0", port=8000)
