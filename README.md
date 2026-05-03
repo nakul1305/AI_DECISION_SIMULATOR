@@ -448,11 +448,11 @@ rows = fetch_history(conn)         # list of dicts, newest first
 
 | Name | Roll No. | GitHub |
 |---|---|---|
-| Anu Chouhan | 23-CSE-5231 | [@anuchouhan](https://github.com) |
-| Snehal Shaswat | 23-CSE-5252 | [@snehalshaswat](https://github.com) |
-| Rohit Raj | 23-CSE-5322 | [@rohitraj](https://github.com) |
+| Nukul Gajwani | 23-CSE-5305 | [@nakul](https://github.com/nakul1305) |
+| Deepanshu | 24-CSE-5351 | [@Deepanshu](https://github.com/deepanshu5351) |
+|  | 23-CSE-5322 | [@](https://github.com) |
 
-**Supervisor:** Ms. Deepika, Assistant Professor — Department of CSE  
+**Supervisor:** Ms. Jyoti, Assistant Professor — Department of CSE  
 **Institution:** BRCM College of Engineering & Technology, Bahal  
 **University:** Maharishi Dayanand University, Rohtak, Haryana
 
